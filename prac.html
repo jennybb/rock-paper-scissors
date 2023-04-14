@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Scissors Paper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="header">Rock Paper Scissors</h1>
+  <div class="intro">Ready to challenge the computer? Once you or the computer reaches 5 points, the winner will be
+    declared and the game will start over! Choose your option and let's play!</div>
+
+  <div class="score-info" id="scoreInfo">Pick your weapon</div>
+  <div class="score-message" id="scoreMessage">Game ends when reach 5 points</div>
+  <div class="scoreboard">
+    <div class="player">
+      <ul>
+        <li id="playerSign">?</li>
+        <li id="playerScore">PLAYER: 0</li>
+      </ul>
+    </div>
+    <div class="vs">VS</div>
+    <div class="computer">
+      <ul>
+        <li id="computerSign">?</li>
+        <li id="computerScore">COMPUTER: 0</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="emoji-button">
+    <button id="rockBtn" style="font-size:10rem">
+      <div class="sign">✊</div>
+    </button>
+    <button id="paperBtn" style="font-size:10rem">
+      <div class='sign'>🖐</div>
+    </button>
+    <button id="scissorsBtn" style="font-size:10rem">
+      <div class='sign'>✌️</div>
+    </button>
+  </div>
+
+  <div class="restart">
+    <button id="restartBtn" type="reset" onclick="document.location.reload()">RESTART</button>
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

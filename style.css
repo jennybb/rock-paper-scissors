@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    color: white;
+    /* font-family: fantasy, cursive, serif; */
+}
+
+.header {
+    text-align: center;
+    font-family: fantasy, cursive, serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.intro {
+    text-align: center;
+    font-family: fantasy, cursive, serif;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.emoji-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex: 1;
+    z-index:-1;
+}
+
+button {
+    border-style: dashed;
+    border-radius: 12px;
+    border-width: 4px;
+    border-color: white;
+    background-color: #4C4E52;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+.score-info,
+.score-message {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#playerSign,
+#computerSign {
+    font-size: 35px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Chalkduster, 'Marker Felt', fantasy;
+    font-size: 30px;
+}
+
+.vs {
+    font-size: xx-large;
+    color: red;
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    flex: 1;
+    margin-left: auto;
+}
+
+.restart {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#restartBtn {
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 40px;
+    color: white;
+    border-width: 0;
+    margin-top:25px;
+}
